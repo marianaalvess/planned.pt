@@ -4,8 +4,8 @@
 
 const translations = {
     pt: {
-        meta_title: "planned.pt - A Arte de Transformar Espaços",
-        meta_description: "Oferecemos serviços de remodelação de alta qualidade. Transformamos a sua casa em um ambiente acolhedor, charmoso e relaxante.",
+        meta_title: "planned.pt - Móveis Sob Medida em Mafra, Lisboa, Sintra e Cascais",
+        meta_description: "A Planned realiza projetos de móveis sob medida em Mafra, Lisboa, Sintra, Cascais e em todo o território de Portugal. Avaliamos previamente os custos de transporte e instalação.",
         nav_home: "Página Inicial",
         nav_about: "Sobre",
         nav_services: "Serviços",
@@ -78,6 +78,8 @@ const translations = {
         port_11_desc: "Design compacto e funcional com cabeceira integrada.",
         port_12_title: "Minimalismo Ripado",
         port_12_desc: "Sofisticação e otimização de espaço sob medida.",
+        port_13_title: "Gabinete Suspenso Minimalista",
+        port_13_desc: "Design flutuante com cuba dupla e acabamento premium.",
         port_btn_more: "Ver Mais Projetos",
         port_more_title: "Mais Transformações",
         badge_before: "ANTES",
@@ -184,8 +186,8 @@ const translations = {
         footer_dev: "Desenvolvido por"
     },
     en: {
-        meta_title: "planned.pt - The Art of Transforming Spaces",
-        meta_description: "We offer high-quality remodeling services. We transform your home into a welcoming, charming, and relaxing environment.",
+        meta_title: "planned.pt - Custom Furniture in Mafra, Lisbon, Sintra & Cascais",
+        meta_description: "Planned carries out custom furniture projects in Mafra, Lisbon, Sintra, Cascais, and throughout Portugal. We evaluate transport and installation costs in advance.",
         nav_home: "Home",
         nav_about: "About",
         nav_services: "Services",
@@ -258,6 +260,8 @@ const translations = {
         port_11_desc: "Compact and functional design with integrated headboard.",
         port_12_title: "Slatted Minimalism",
         port_12_desc: "Custom-made sophistication and space optimization.",
+        port_13_title: "Minimalist Suspended Cabinet",
+        port_13_desc: "Floating design with double sink and premium finish.",
         port_btn_more: "View More Projects",
         port_more_title: "More Transformations",
         badge_before: "BEFORE",
@@ -364,8 +368,8 @@ const translations = {
         footer_dev: "Developed by"
     },
     es: {
-        meta_title: "planned.pt - El Arte de Transformar Espacios",
-        meta_description: "Ofrecemos servicios de remodelación de alta calidad. Transformamos su hogar en un ambiente acogedor, encantador y relajante.",
+        meta_title: "planned.pt - Muebles a Medida en Mafra, Lisboa, Sintra y Cascais",
+        meta_description: "Planned realiza proyectos de muebles a medida en Mafra, Lisboa, Sintra, Cascais y en todo el territorio de Portugal. Evaluamos los costos de transporte e instalación con antelación.",
         nav_home: "Inicio",
         nav_about: "Nosotros",
         nav_services: "Servicios",
@@ -438,6 +442,8 @@ const translations = {
         port_11_desc: "Diseño compacto y funcional con cabecera integrada.",
         port_12_title: "Minimalismo Listado",
         port_12_desc: "Sofisticación y optimización de espacio a medida.",
+        port_13_title: "Gabinete Suspendido Minimalista",
+        port_13_desc: "Diseño flotante con doble lavabo y acabado premium.",
         port_btn_more: "Ver Más Proyectos",
         port_more_title: "Más Transformaciones",
         badge_before: "ANTES",
@@ -541,11 +547,11 @@ const translations = {
         footer_terms: "Términos y Condiciones",
         footer_privacy: "Política de Privacidad",
         footer_rights: "Todos los derechos reservados.",
-        footer_dev: "Desarrollado por"
+        footer_dev: "Desenvolvido por"
     },
     fr: {
-        meta_title: "planned.pt - L'Art de Transformer les Espaces",
-        meta_description: "Nous proposons des services de rénovation de haute qualité. Nous transformons votre maison en un environnement accueillant, charmant et relaxant.",
+        meta_title: "planned.pt - Meubles sur Mesure à Mafra, Lisbonne, Sintra et Cascais",
+        meta_description: "Planned réalise des projets de meubles sur mesure à Mafra, Lisbonne, Sintra, Cascais et dans tout le Portugal. Nous évaluons les coûts de transport et d'installation à l'avance.",
         nav_home: "Accueil",
         nav_about: "À Propos",
         nav_services: "Services",
@@ -618,6 +624,8 @@ const translations = {
         port_11_desc: "Design compact et fonctionnel avec tête de lit intégrée.",
         port_12_title: "Minimalisme à Lattes",
         port_12_desc: "Sophistication et optimisation d'espace sur mesure.",
+        port_13_title: "Meuble Suspendu Minimaliste",
+        port_13_desc: "Design flottant avec double vasque et finition premium.",
         port_btn_more: "Voir Plus De Projets",
         port_more_title: "Plus De Transformations",
         badge_before: "AVANT",
@@ -715,7 +723,7 @@ const translations = {
         form_location: "Lieu d'installation",
         btn_whatsapp_send: "Envoyer le Résumé",
         btn_submit: "Demander Contact",
-        footer_about: "Experts en rénovations complètes, alliant design, fonctionnalité et confort dans chaque projet.",
+        footer_about: "Experts en rénovations complètes, alliant design, fonctionnalité et confort en chaque projet.",
         footer_links_title: "Liens Rapides",
         footer_legal_title: "Légal",
         footer_terms: "Termes et Conditions",
@@ -724,8 +732,8 @@ const translations = {
         footer_dev: "Développé par"
     },
     de: {
-        meta_title: "planned.pt - Die Kunst, Räume zu Verwandeln",
-        meta_description: "Wir bieten qualitativ hochwertige Umbaudienstleistungen an. Wir verwandeln Ihr Zuhause in eine einladende, charmante und entspannende Umgebung.",
+        meta_title: "planned.pt - Maßgefertigte Möbel in Mafra, Lissabon, Sintra & Cascais",
+        meta_description: "Planned führt maßgefertigte Möbelprojekte in Mafra, Lissabon, Sintra, Cascais und ganz Portugal durch. Wir bewerten die Transport- und Installationskosten im Voraus.",
         nav_home: "Startseite",
         nav_about: "Über Uns",
         nav_services: "Leistungen",
@@ -794,6 +802,8 @@ const translations = {
         port_11_desc: "Kompaktes und funktionales Design mit integriertem Kopfteil.",
         port_12_title: "Minimalismus mit Lamellen",
         port_12_desc: "Maßgeschneiderte Raffinesse und Raumoptimierung.",
+        port_13_title: "Minimalistischer Hängeschrank",
+        port_13_desc: "Schwebendes Design mit Doppelwaschbecken und Premium-Finish.",
         port_btn_more: "Weitere Projekte Ansehen",
         port_more_title: "Weitere Transformationen",
         badge_before: "VORHER",

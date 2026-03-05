@@ -4,10 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="meta_title">planned.pt - A Arte de Transformar Espaços</title>
+    <title data-i18n="meta_title">planned.pt - Móveis Sob Medida em Mafra, Lisboa, Sintra e Cascais</title>
     <meta name="description"
-        content="Oferecemos serviços de remodelação de alta qualidade. Transformamos a sua casa em um ambiente acolhedor, charmoso e relaxante."
+        content="A Planned realiza projetos de móveis sob medida em Mafra, Lisboa, Sintra, Cascais e em todo o território de Portugal. Avaliamos previamente os custos de transporte e instalação."
         data-i18n="meta_description">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.planned.pt/">
+    <meta property="og:title" content="planned.pt - Móveis Sob Medida em Mafra, Lisboa, Sintra e Cascais"
+        data-i18n="og_title">
+    <meta property="og:description"
+        content="A Planned realiza projetos de móveis sob medida em Mafra, Lisboa, Sintra, Cascais e em todo o território de Portugal. Avaliamos previamente os custos de transporte e instalação."
+        data-i18n="og_description">
+    <meta property="og:image" content="https://www.planned.pt/hero.webp">
+    <meta property="og:image:alt" content="Interior de casa moderna com móveis desenhados à medida">
+    <meta property="og:site_name" content="planned.pt">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.planned.pt/">
+    <meta name="twitter:title" content="planned.pt - Móveis Sob Medida em Mafra, Lisboa, Sintra e Cascais">
+    <meta name="twitter:description"
+        content="A Planned realiza projetos de móveis sob medida em Mafra, Lisboa, Sintra, Cascais e em todo o território de Portugal. Avaliamos previamente os custos de transporte e instalação.">
+    <meta name="twitter:image" content="https://www.planned.pt/hero.webp">
+
+    <!-- Schema.org Structured Data (Google Rich Snippets) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "planned.pt",
+      "image": "https://www.planned.pt/hero.webp",
+      "@id": "https://www.planned.pt/",
+      "url": "https://www.planned.pt/",
+      "telephone": "+351922272208",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Vale Espinheiro 4B",
+        "addressLocality": "Mafra",
+        "addressRegion": "Longo da Vila",
+        "addressCountry": "PT"
+      },
+      "description": "Serviços de carpintaria e mobiliário sob medida de alta qualidade em Portugal.",
+      "priceRange": "$$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    }
+    </script>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -149,9 +204,10 @@
                     <span class="subtitle" data-i18n="about_subtitle">Quem Somos</span>
                     <h2><span data-i18n="about_title_text">A Nossa</span> <em class="highlight"
                             data-i18n="about_title_em">História</em></h2>
-                    <p data-i18n="about_text_1">Somos especialistas em remodelação há mais de 10 anos. Acreditamos que a
-                        qualidade, a transparência e a dedicação são fundamentais para o sucesso de cada obra, e é o que
-                        nós fazemos com paixão todos os dias.</p>
+                    <p data-i18n="about_text_1">Somos especialistas em carpintaria e mobiliário sob medida há mais de 10
+                        anos. Acreditamos que a
+                        sua casa deve contar a sua história através de cada detalhe, por isso dedicamo-nos a desenhar e
+                        executar móveis que unem design sofisticado, conforto e funcionalidade ímpar.</p>
                     <p data-i18n="about_text_2">A nossa equipa é composta por profissionais altamente qualificados e
                         experientes, prontos para transformar as suas ideias em realidade. Desde pequenos reparos até
                         remodelações completas, garantimos um serviço de excelência.</p>
@@ -536,6 +592,33 @@
                         <div class="portfolio-info-box">
                             <h4 data-i18n="port_12_title">Minimalismo Ripado</h4>
                             <p data-i18n="port_12_desc">Sofisticação e otimização de espaço sob medida.</p>
+                        </div>
+                    </div>
+
+                    <!-- Extra Project 8 -->
+                    <div class="portfolio-card extra-project" style="display: none;">
+                        <div class="portfolio-slider">
+                            <img src="gabinete_suspenso_depois.webp" alt="Depois" class="slider-img slider-img-after">
+                            <span class="slider-badge badge-after" data-i18n="badge_after">DEPOIS</span>
+
+                            <div class="slider-before-wrapper">
+                                <img src="gabinete_suspenso_antes.webp" alt="Antes"
+                                    class="slider-img slider-img-before">
+                                <span class="slider-badge badge-before" data-i18n="badge_before">ANTES</span>
+                            </div>
+
+                            <input type="range" min="0" max="100" value="50" class="slider-input">
+                            <div class="slider-divider">
+                                <div class="slider-handle">
+                                    <i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <button class="portfolio-zoom-btn" aria-label="Ampliar"><i
+                                    class="fa-solid fa-expand"></i></button>
+                        </div>
+                        <div class="portfolio-info-box">
+                            <h4 data-i18n="port_13_title">Gabinete Suspenso Minimalista</h4>
+                            <p data-i18n="port_13_desc">Design flutuante com cuba dupla e acabamento premium.</p>
                         </div>
                     </div>
 
