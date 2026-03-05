@@ -1127,7 +1127,7 @@ header.scrolled {
     align-items: center;
     justify-content: center;
     z-index: 10;
-    transition: all var(--transition-short);
+    transition: all var(--transition-fast);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     touch-action: manipulation;
     user-select: none;
@@ -1161,7 +1161,7 @@ header.scrolled {
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: all var(--transition-short);
+    transition: all var(--transition-fast);
 }
 
 .dot.active {
@@ -1184,7 +1184,7 @@ header.scrolled {
     padding: 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.03);
-    transition: transform var(--transition-short), box-shadow var(--transition-short);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .testimonials-carousel .testimonial-card:hover {

@@ -1096,10 +1096,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const testimonialsWrapper = document.querySelector('.testimonials-wrapper');
     let prevBtn = null, nextBtn = null, dots = [];
 
+    const testimonialsSection = document.querySelector('.testimonials');
     if (testimonialsWrapper) {
         prevBtn = testimonialsWrapper.querySelector('.prev-btn');
         nextBtn = testimonialsWrapper.querySelector('.next-btn');
-        dots = testimonialsWrapper.querySelectorAll('.carousel-dots .dot');
+
+        // The dots are outside the wrapper, but inside the section
+        if (testimonialsSection) {
+            dots = testimonialsSection.querySelectorAll('.carousel-dots .dot');
+        }
     }
 
     if (carousel && prevBtn && nextBtn) {
@@ -1137,15 +1142,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 dot.addEventListener('click', () => {
                     const index = parseInt(dot.getAttribute('data-index'));
                     const maxScroll = carousel.scrollWidth - carousel.clientWidth;
-                    const scrollLeft = index === 1 ? maxScroll : 0;
-                    carousel.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+                    const targetScrollLeft = (index / (dots.length - 1)) * maxScroll;
+                    carousel.scrollTo({ left: targetScrollLeft, behavior: 'smooth' });
                 });
             });
 
             carousel.addEventListener('scroll', () => {
                 const scrollLeft = carousel.scrollLeft;
-                const scrollWidth = carousel.scrollWidth - carousel.clientWidth;
-                let activeIndex = (scrollLeft > scrollWidth * 0.5) ? 1 : 0;
+                const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+
+                // Avoid division by zero
+                if (maxScroll <= 0) return;
+
+                const scrollPercentage = scrollLeft / maxScroll;
+                let activeIndex = Math.round(scrollPercentage * (dots.length - 1));
+
+                if (activeIndex >= dots.length) activeIndex = dots.length - 1;
+                if (activeIndex < 0) activeIndex = 0;
 
                 dots.forEach((dot, index) => {
                     if (index === activeIndex) {
