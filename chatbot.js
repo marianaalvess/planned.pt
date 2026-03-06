@@ -1,4 +1,4 @@
-/* =========================================
+﻿/* =========================================
    Chatbot — Planned.pt
    State-machine chatbot with FAQ & Quote flow
    ========================================= */
@@ -214,19 +214,19 @@
     }
 
     function getFaqCategories() {
-        var lang = getLang();
-        var trans = (typeof translations !== 'undefined' && translations[lang]) ? translations[lang] : {};
+    var lang = getLang();
+    var trans = (typeof translations !== 'undefined' && translations[lang]) ? translations[lang] : (typeof chatbotTranslations !== 'undefined' && chatbotTranslations[lang] ? chatbotTranslations[lang] : {});
 
-        var categories = [
-            { id: 1, title: trans['faq_cat_1'] || "Projeto e Processo", qIds: [1, 3, 8, 9, 12] },
-            { id: 2, title: trans['faq_cat_2'] || "Orçamento e Investimento", qIds: [4, 10, 11] },
-            { id: 3, title: trans['faq_cat_3'] || "Materiais e Acabamentos", qIds: [5, 13, 16, 17, 18] },
-            { id: 4, title: trans['faq_cat_4'] || "Instalação e Montagem", qIds: [2, 6, 14] },
-            { id: 5, title: trans['faq_cat_5'] || "Garantia e Suporte", qIds: [7, 15] }
-        ];
+    var categories = [
+        { id: 1, title: trans['faq_cat_1'] || "Projeto e Processo", qIds: [1, 2, 3, 4, 5] },
+        { id: 2, title: trans['faq_cat_2'] || "OrÃ§amento e Investimento", qIds: [6, 7, 8, 9, 10] },
+        { id: 3, title: trans['faq_cat_3'] || "Materiais e Acabamentos", qIds: [11, 12, 13, 14, 15] },
+        { id: 4, title: trans['faq_cat_4'] || "InstalaÃ§Ã£o e Montagem", qIds: [16, 17, 18, 19, 20] },
+        { id: 5, title: trans['faq_cat_5'] || "Garantia e Suporte", qIds: [21, 22, 23, 24, 25] }
+    ];
 
-        return categories;
-    }
+    return categories;
+}
 
     function getFaqQuestionById(id) {
         var lang = getLang();
@@ -604,3 +604,5 @@
         init();
     }
 })();
+
+
