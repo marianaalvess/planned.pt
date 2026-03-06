@@ -4,8 +4,8 @@
 
 const translations = {
     pt: {
-        meta_title: "planned.pt - Móveis Sob Medida em Mafra, Lisboa, Sintra e Cascais",
-        meta_description: "A Planned realiza projetos de móveis sob medida em Mafra, Lisboa, Sintra, Cascais e em todo o território de Portugal. Avaliamos previamente os custos de transporte e instalação.",
+        meta_title: "Móveis Sob Medida em Mafra | Cozinhas, Roupeiros Premium | Planned",
+        meta_description: "Móveis sob medida de luxo em Mafra. Design 3D, cozinhas planeadas, roupeiros premium. Consultoria gratuita. +351 922 272 208",
         nav_home: "Página Inicial",
         nav_about: "Sobre",
         nav_services: "Serviços",
@@ -205,8 +205,8 @@ const translations = {
         exit_btn: "FALAR COM UM ESPECIALISTA AGORA"
     },
     en: {
-        meta_title: "planned.pt - Custom Furniture in Mafra, Lisbon, Sintra & Cascais",
-        meta_description: "Planned carries out custom furniture projects in Mafra, Lisbon, Sintra, Cascais, and throughout Portugal. We evaluate transport and installation costs in advance.",
+        meta_title: "Custom Furniture in Mafra | Premium Kitchens, Wardrobes | Planned",
+        meta_description: "Luxury custom furniture in Mafra. 3D Design, fitted kitchens, premium wardrobes. Free consultation. +351 922 272 208",
         nav_home: "Home",
         nav_about: "About",
         nav_services: "Services",
@@ -406,8 +406,8 @@ const translations = {
         exit_btn: "TALK TO A SPECIALIST NOW"
     },
     es: {
-        meta_title: "planned.pt - Muebles a Medida en Mafra, Lisboa, Sintra y Cascais",
-        meta_description: "Planned realiza proyectos de muebles a medida en Mafra, Lisboa, Sintra, Cascais y en todo el territorio de Portugal. Evaluamos los costos de transporte e instalación con antelación.",
+        meta_title: "Muebles a Medida en Mafra | Cocinas, Armarios Premium | Planned",
+        meta_description: "Muebles a medida de lujo en Mafra. Diseño 3D, cocinas a medida, armarios premium. Consultoría gratuita. +351 922 272 208",
         nav_home: "Inicio",
         nav_about: "Nosotros",
         nav_services: "Servicios",
@@ -607,8 +607,8 @@ const translations = {
         exit_btn: "HABLAR CON UN ESPECIALISTA AHORA"
     },
     fr: {
-        meta_title: "planned.pt - Meubles sur Mesure à Mafra, Lisbonne, Sintra et Cascais",
-        meta_description: "Planned réalise des projets de meubles sur mesure à Mafra, Lisbonne, Sintra, Cascais et dans tout le Portugal. Nous évaluons les coûts de transport et d'installation à l'avance.",
+        meta_title: "Meubles sur Mesure à Mafra | Cuisines, Armoires Premium | Planned",
+        meta_description: "Meubles sur mesure de luxe à Mafra. Design 3D, cuisines équipées, armoires premium. Consultation gratuite. +351 922 272 208",
         nav_home: "Accueil",
         nav_about: "À Propos",
         nav_services: "Services",
@@ -808,8 +808,8 @@ const translations = {
         exit_btn: "PARLER À UN SPÉCIALISTE MAINTENANT"
     },
     de: {
-        meta_title: "planned.pt - Maßgefertigte Möbel in Mafra, Lissabon, Sintra & Cascais",
-        meta_description: "Planned führt maßgefertigte Möbelprojekte in Mafra, Lissabon, Sintra, Cascais und ganz Portugal durch. Wir bewerten die Transport- und Installationskosten im Voraus.",
+        meta_title: "Maßgefertigte Möbel in Mafra | Küchen, Schränke Premium | Planned",
+        meta_description: "Luxus-Maßmöbel in Mafra. 3D-Design, geplante Küchen, Premium-Schränke. Kostenlose Beratung. +351 922 272 208",
         nav_home: "Startseite",
         nav_about: "Über Uns",
         nav_services: "Leistungen",
